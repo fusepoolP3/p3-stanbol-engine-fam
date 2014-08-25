@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.apache.stanbol</groupId>
+    <artifactId>apache-stanbol-enhancement-engines</artifactId>
+    <version>0.12.0</version>
+  </parent>
+
+  <groupId>eu.fusepool.p3.stanbol-engines-fise2fam</groupId>
+  <artifactId>stanbol-engines-fise2fam</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>bundle</packaging>
+
+  <name>Apache Stanbol Enhancement Engine : FISE to FAM converter</name>
+  <description>
+    A post-processing enhancement engine that converts FISE enhancement results
+    to the FAM (Fusepool Annotation Model).
+  </description>
+
+  <inceptionYear>2014</inceptionYear>
+
+  <scm>
+    <url>https://github.com/fusepoolp3/p3-stanbol-engine-fam</url>
+    <connection>scm:git:https://github.com/fusepoolp3/p3-stanbol-engine-fam</connection>
+    <developerConnection>scm:git:git@github.com:fusepoolp3/p3-stanbol-engine-fam.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <!-- This engine works with 0.12 and all 1.* versions -->
+            <Import-Package>
+              org.apache.stanbol.enhancer.servicesapi*;version="[0.12.0,2)",
+              *
+            </Import-Package>
+            <Private-Package>
+              eu.fusepool.enhancer.engines.fise2fam.*;version=${project.version}
+            </Private-Package>
+          </instructions>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-scr-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <configuration>
+          <excludes>
+
+            <exclude>src/license/THIRD-PARTY.properties</exclude>
+          </excludes>
+        </configuration>
+      </plugin>      
+    </plugins>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <inherited>true</inherited>
+          <configuration> <!-- override some bundle metadata of the stanbol parent -->
+            <instructions>
+              <Bundle-Category>Fusepool P3 Stanbol Engines</Bundle-Category>
+              <Bundle-DocURL>http://p3.fusepool.eu/</Bundle-DocURL>
+              <Bundle-Vendor>Fusepool P3</Bundle-Vendor>
+            </instructions>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.stanbol</groupId>
+      <artifactId>org.apache.stanbol.enhancer.servicesapi</artifactId>
+      <version>0.12.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.felix</groupId>
+      <artifactId>org.apache.felix.scr.annotations</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+    
+    <!-- Test dependencies -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>      
+    </dependency>
+    <dependency>  <!-- used for debug level logging during tests -->
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <scope>test</scope>
+    </dependency>
+     <dependency>
+      <groupId>org.apache.stanbol</groupId>
+      <artifactId>org.apache.stanbol.enhancer.core</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency><!-- for loading test Enhancements -->
+      <groupId>org.apache.clerezza</groupId>
+      <artifactId>rdf.jena.parser</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency><!-- for loading test Enhancements -->
+      <groupId>org.apache.clerezza</groupId>
+      <artifactId>rdf.jena.serializer</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
