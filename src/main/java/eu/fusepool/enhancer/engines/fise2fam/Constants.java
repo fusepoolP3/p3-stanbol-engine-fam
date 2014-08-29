@@ -52,33 +52,7 @@ public interface Constants {
 	public static final UriRef NIF_BEFORE = new UriRef(NS_NIF + "before");
 	public static final UriRef NIF_AFTER = new UriRef(NS_NIF + "after");
 	public static final UriRef NIF_REFERENCE_CONTEXT = new UriRef(NS_NIF + "referenceContext");
-	
-	
-	public static final String NS_FAM = "http://vocab.fusepool.info/fam#";
-	public static final UriRef FAM_EXTRACTED_FROM = new UriRef(NS_FAM + "extracted-from");
-	public static final UriRef FAM_SELECTOR = new UriRef(NS_FAM + "selector");
-	public static final UriRef FAM_CONFIDENCE= new UriRef(NS_FAM + "confidence");
-	
-	public static final UriRef FAM_LANGUAGE_ANNOTATION = new UriRef(NS_FAM + "LanguageAnnotation");
-	public static final UriRef FAM_ENTITY_MENTION_CLASS = new UriRef(NS_FAM + "EntityMention");
-	public static final UriRef FAM_TOPIC_CLASSIFICATION = new UriRef(NS_FAM + "TopicClassification");
-	public static final UriRef FAM_TOPIC_ANNOTATION = new UriRef(NS_FAM + "TopicAnnotation");
-	public static final UriRef FAM_ENTITY_LINKING_CHOICE = new UriRef(NS_FAM + "EntityLinkingChoice");
-	public static final UriRef FAM_ENTITY_ANNOTATION = new UriRef(NS_FAM + "EntityAnnotation");
-	public static final UriRef FAM_ENTITY_SUGGESTION = new UriRef(NS_FAM + "EntitySuggestion");
-	public static final UriRef FAM_LINKED_ENTITY = new UriRef(NS_FAM + "LinkedEntity");
-	
-	public static final UriRef FAM_ENTITY_MENTION_PROP = new UriRef(NS_FAM + "entity-mention");
-	public static final UriRef FAM_ENTITY_REFERENCE = new UriRef(NS_FAM + "entity-reference");
-	public static final UriRef FAM_ENTITY_LABEL = new UriRef(NS_FAM + "entity-label");
-	public static final UriRef FAM_ENTITY_TYPE = new UriRef(NS_FAM + "entity-type");
-	
-	public static final UriRef FAM_CLASSIFICATION_SCHEME = new UriRef(NS_FAM + "classification-scheme");
-	
-	public static final UriRef FAM_TOPIC_REFERENCE = new UriRef(NS_FAM + "topic-reference");
-	public static final UriRef FAM_TOPIC_LABEL = new UriRef(NS_FAM + "topic-label");
-	
-	
+		
 	
 	public static final UriRef ENTITYHUB_SITE = new UriRef(NamespaceEnum.entityhub + "site");
 	

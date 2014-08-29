@@ -70,6 +70,8 @@ import org.osgi.service.component.ComponentContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import eu.fusepool.p3.vocab.FAM;
+
 /**
  * Post-processing {@link EnhancementEngine} that implements the conversion of
  * FISE enhancements to FAM as specified in 
@@ -269,9 +271,9 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
 
             //(2) General purpose attributes mapped for all fise:Enhancements
             //(2.a) confidence
-            copyValue(ctx, anno.enh, ENHANCER_CONFIDENCE, anno.enh, FAM_CONFIDENCE);
+            copyValue(ctx, anno.enh, ENHANCER_CONFIDENCE, anno.enh, FAM.confidence);
             //(2.b) the fise extracted-from
-    		copyValue(ctx, anno.enh, ENHANCER_EXTRACTED_FROM, anno.enh, FAM_EXTRACTED_FROM);
+    		copyValue(ctx, anno.enh, ENHANCER_EXTRACTED_FROM, anno.enh, FAM.extracted_from);
 
     		//(3) transformations that apply for all fise:Enhancements
             //(3.a) try to transform a selection
@@ -300,7 +302,7 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
         	//NOTE: could be also done in the first pass, but its good to kepp things
         	//      together.
         	if(anno.getSelector() != null){
-        		ctx.tar.add(new TripleImpl(anno.getBody(), FAM_SELECTOR, anno.getSelector()));
+        		ctx.tar.add(new TripleImpl(anno.getBody(), FAM.selector, anno.getSelector()));
         		if(anno.getSpTarget() != null) {//metadata are written
         			ctx.tar.add(new TripleImpl(anno.getSpTarget(),OA_HAS_SELECTOR, anno.getSelector()));
         		}
@@ -312,7 +314,7 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
         	for(NonLiteral related : anno.getRelated()){
         		Annotation relAnno = ctx.getAnnotation(related);
             	if(anno.getSelector() != null){
-            		ctx.tar.add(new TripleImpl(anno.getBody(), FAM_SELECTOR, relAnno.getSelector()));
+            		ctx.tar.add(new TripleImpl(anno.getBody(), FAM.selector, relAnno.getSelector()));
             		ctx.tar.add(new TripleImpl(anno.getSpTarget(),OA_HAS_SELECTOR, relAnno.getSelector()));
             	}
         	}
@@ -420,7 +422,7 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
      * @param anno the Annotation to transform
      */
     private void transformLanguageAnnotation(Annotation anno) {
-    	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM_LANGUAGE_ANNOTATION));
+    	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM.LanguageAnnotation));
         copyValue(anno.ctx, anno.enh, DC_LANGUAGE, anno.enh, DC_LANGUAGE);
         //the annotation body uses the same resource as the enhancement
         anno.setBody(anno.enh); 
@@ -432,7 +434,7 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
      * @param anno the Annotation to transform
      */
     private void transformTopicClassification(Annotation anno) {
-    	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM_TOPIC_CLASSIFICATION));
+    	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM.TopicClassification));
     	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, OA_COMPOSITE));
         //the annotation body uses the same resource as the enhancement
         anno.setBody(anno.enh); 
@@ -444,9 +446,9 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
      * @param anno the Annotation to transform
      */
     private void transformEntityMentionAnnotation(Annotation anno) {
-    	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM_ENTITY_MENTION_CLASS));
-        copyValue(anno.ctx, anno.enh, ENHANCER_SELECTED_TEXT, anno.enh , FAM_ENTITY_MENTION_PROP);
-        copyValue(anno.ctx, anno.enh, DC_TYPE, anno.enh, FAM_ENTITY_TYPE);
+    	anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM.EntityMention));
+        copyValue(anno.ctx, anno.enh, ENHANCER_SELECTED_TEXT, anno.enh , FAM.entity_mention);
+        copyValue(anno.ctx, anno.enh, DC_TYPE, anno.enh, FAM.entity_type);
     }
     
 	/**
@@ -475,21 +477,21 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
 					anno.addReated(mention); //add this as a related annotation
 					//adapt EntityMention
 					anno.ctx.tar.add(new TripleImpl(mention, RDF_TYPE, OA_CHOICE));
-					anno.ctx.tar.add(new TripleImpl(mention, RDF_TYPE, FAM_ENTITY_LINKING_CHOICE));
+					anno.ctx.tar.add(new TripleImpl(mention, RDF_TYPE, FAM.EntityLinkingChoice));
 					anno.ctx.tar.add(new TripleImpl(mention,OA_ITEM, anno.getBody()));
 				}
 			} //dc:relation to an Literal ... ignore
 		}
 		//add the RDF types to the entity annotation
-    	anno.ctx.tar.add(new TripleImpl(anno.getBody(), RDF_TYPE, FAM_ENTITY_ANNOTATION));
+    	anno.ctx.tar.add(new TripleImpl(anno.getBody(), RDF_TYPE, FAM.EntityAnnotation));
 		if(!anno.getRelated().isEmpty()){ //if there is a fam:EntityMention linked
 			//this is also a fam:EntitySuggestion
-			anno.ctx.tar.add(new TripleImpl(anno.getBody(), RDF_TYPE, FAM_ENTITY_SUGGESTION));
+			anno.ctx.tar.add(new TripleImpl(anno.getBody(), RDF_TYPE, FAM.EntitySuggestion));
 		}
 		//direct mappings for fise:EntityAnnotation
-		copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_REFERENCE, anno.getBody(), FAM_ENTITY_REFERENCE);
-		copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_LABEL, anno.getBody(), FAM_ENTITY_LABEL);
-		copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_TYPE, anno.getBody(), FAM_ENTITY_TYPE);
+		copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_REFERENCE, anno.getBody(), FAM.entity_reference);
+		copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_LABEL, anno.getBody(), FAM.entity_label);
+		copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_TYPE, anno.getBody(), FAM.entity_type);
 		copyValue(anno.ctx, anno.enh, ENTITYHUB_SITE, anno.getBody(), ENTITYHUB_SITE);
 	}
 
@@ -506,9 +508,9 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
 			} //else dc:relation to an Literal ... ignore
 		}
 		if(!anno.getRelated().isEmpty()){
-			anno.ctx.tar.add(new TripleImpl(anno.getBody(), RDF_TYPE, FAM_TOPIC_ANNOTATION));
-			copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_REFERENCE, anno.getBody(), FAM_TOPIC_REFERENCE);
-			copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_LABEL, anno.getBody(), FAM_TOPIC_LABEL);
+			anno.ctx.tar.add(new TripleImpl(anno.getBody(), RDF_TYPE, FAM.TopicAnnotation));
+			copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_REFERENCE, anno.getBody(), FAM.topic_reference);
+			copyValue(anno.ctx, anno.enh, ENHANCER_ENTITY_LABEL, anno.getBody(), FAM.topic_label);
 			copyValue(anno.ctx, anno.enh, ENTITYHUB_SITE, anno.getBody(), ENTITYHUB_SITE);
 			
 		}//else ignore Topic Annotations without a Topic Classification
