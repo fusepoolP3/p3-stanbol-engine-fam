@@ -1,0 +1,251 @@
+<urn:enhancement-cd4fd085-5073-a435-d30c-cdeccd0c492e>
+      a       <http://fise.iks-project.eu/ontology/EntityAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "0.4545454545454546"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "Paris salon"@en ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Salon_(Paris)> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/Place> , <http://www.opengis.net/gml/_Feature> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.698Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.lucenefstlinking.FstLinkingEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-14a301f1-b740-44b3-257c-1c2a92b7b0ff> .
+
+<http://dbpedia.org/resource/Bob_Marley>
+      a       <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/MusicalArtist> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#comment>
+              "Robert Nesta \"Bob\" Marley, OM (6 February 1945 – 11 May 1981) was a Jamaican singer-songwriter and musician. He was the rhythm guitarist and lead singer for the ska, rocksteady and reggae band Bob Marley & The Wailers (1963–1981). Marley remains the most widely known and revered performer of reggae music, and is credited with helping spread both Jamaican music and the Rastafari movement to a worldwide audience."@en ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "בוב מארלי"@he , "Марли, Боб"@ru , "Bob Marley"@tr , "Bob Marley"@pt , "Bob Marley"@it , "Bob Marley"@fr , "Bob Marley"@es , "Bob Marley"@en , "Bob Marley"@de , "بوب مارلي"@ar , "巴布·馬利"@zh ;
+      <http://xmlns.com/foaf/0.1/depiction>
+              <http://upload.wikimedia.org/wikipedia/commons/5/5e/Bob-Marley.jpg> , <http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bob-Marley.jpg/200px-Bob-Marley.jpg> .
+
+<urn:enhancement-14a301f1-b740-44b3-257c-1c2a92b7b0ff>
+      a       <http://fise.iks-project.eu/ontology/TextAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "1.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/end>
+              "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://fise.iks-project.eu/ontology/selected-text>
+              "Paris"@en ;
+      <http://fise.iks-project.eu/ontology/selection-context>
+              " enhancer can detect famous cities such as Paris and people such as Bob Marley."@en ;
+      <http://fise.iks-project.eu/ontology/selection-prefix>
+              "s such as "@en ;
+      <http://fise.iks-project.eu/ontology/selection-suffix>
+              " and peopl"@en ;
+      <http://fise.iks-project.eu/ontology/start>
+              "54"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.698Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.lucenefstlinking.FstLinkingEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/type>
+              <http://dbpedia.org/ontology/Place> .
+
+<urn:enhancement-ecd2c907-5263-6be0-ddf0-e5180f2a5889>
+      a       <http://fise.iks-project.eu/ontology/EntityAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "1.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "Bob Marley"@en ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Bob_Marley> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/MusicalArtist> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.698Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.lucenefstlinking.FstLinkingEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-34234095-fa52-4e97-5628-ae6319d6e855> .
+
+<urn:enhancement-3acfe195-587e-6c77-5819-58cedabca6ca>
+      a       <http://fise.iks-project.eu/ontology/TextAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "0.9999946858711665"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.655Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.langdetect.LanguageDetectionEnhancementEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/language>
+              "en" ;
+      <http://purl.org/dc/terms/type>
+              <http://purl.org/dc/terms/LinguisticSystem> .
+
+<urn:enhancement-34234095-fa52-4e97-5628-ae6319d6e855>
+      a       <http://fise.iks-project.eu/ontology/TextAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "1.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/end>
+              "89"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://fise.iks-project.eu/ontology/selected-text>
+              "Bob Marley"@en ;
+      <http://fise.iks-project.eu/ontology/selection-context>
+              " famous cities such as Paris and people such as Bob Marley."@en ;
+      <http://fise.iks-project.eu/ontology/selection-prefix>
+              "e such as "@en ;
+      <http://fise.iks-project.eu/ontology/selection-suffix>
+              "."@en ;
+      <http://fise.iks-project.eu/ontology/start>
+              "79"^^<http://www.w3.org/2001/XMLSchema#int> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.698Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.lucenefstlinking.FstLinkingEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/type>
+              <http://dbpedia.org/ontology/Person> .
+
+<http://dbpedia.org/resource/Institut_d'%C3%89tudes_Politiques_de_Paris>
+      a       <http://dbpedia.org/ontology/EducationalInstitution> , <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/EducationalOrganization> , <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/Organisation> , <http://www.opengis.net/gml/_Feature> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/University> ;
+      <http://www.w3.org/2000/01/rdf-schema#comment>
+              "The Institut d'études politiques de Paris (English: Paris Institute of Political Studies), simply referred to as Sciences Po, is a public research and higher education institution in Paris, France, specialised in the social sciences. It has the status of grand établissement, which allows its admissions process to be highly selective. Established in 1872, Sciences Po has traditionally educated France's political and diplomatic elite. Its name refers to the political sciences, in the plural."@en ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Institut d’études politiques de Paris"@de , "המכון למדע המדינה פריז"@he , "Instituto de Estudios Políticos de París"@es , "Institut d'Etudes Politiques de Paris"@pt , "巴黎政治大学"@zh , "Institut d'Études Politiques de Paris"@en , "Institut d'études politiques de Paris"@it , "Institut d'études politiques de Paris"@fr , "Институт политических исследований (Париж)"@ru , "معهد الدراسات السياسية بباريس"@ar ;
+      <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+              "48.85417"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+              "2.3284695"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://xmlns.com/foaf/0.1/depiction>
+              <http://upload.wikimedia.org/wikipedia/commons/3/34/LogoScPo.png> , <http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/LogoScPo.png/200px-LogoScPo.png> .
+
+<urn:enhancement-5fe84071-1ca0-f43e-a7f7-2ae76afedc7b>
+      a       <http://fise.iks-project.eu/ontology/EntityAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "1.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "Paris"@en ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Paris> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/Place> , <http://www.opengis.net/gml/_Feature> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.698Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.lucenefstlinking.FstLinkingEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-14a301f1-b740-44b3-257c-1c2a92b7b0ff> .
+
+<http://dbpedia.org/resource/Salon_(Paris)>
+      <http://www.w3.org/2000/01/rdf-schema#comment>
+              "The Salon, or rarely Paris Salon, beginning in 1725 was the official art exhibition of the Académie des Beaux-Arts in Paris, France. Between 1748–1890 it was the greatest annual or biannual art event in the Western world. From 1881 onward, it has been organized by the Société des Artistes Français."@en ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Salon (Paris)"@en , "Salón de París"@es , "Парижский салон"@ru , "Salon de Paris"@pt , "Salon de Paris"@de , "Salon (mostra)"@it , "Paris Salonu"@tr ;
+      <http://xmlns.com/foaf/0.1/depiction>
+              <http://upload.wikimedia.org/wikipedia/commons/9/98/This_Year_Venuses_Again_(Daumier).jpg> , <http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/This_Year_Venuses_Again_(Daumier).jpg/200px-This_Year_Venuses_Again_(Daumier).jpg> .
+
+<urn:enhancement-86c0777a-bb1f-8368-edbd-b43d0413248c>
+      a       <http://fise.iks-project.eu/ontology/EntityAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "0.5555555555555556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "IEP Paris"@en ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Institut_d'%C3%89tudes_Politiques_de_Paris> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://dbpedia.org/ontology/EducationalInstitution> , <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/EducationalOrganization> , <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/Organisation> , <http://www.opengis.net/gml/_Feature> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/University> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T08:01:06.698Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engines.lucenefstlinking.FstLinkingEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-14a301f1-b740-44b3-257c-1c2a92b7b0ff> .
+
+<http://dbpedia.org/resource/Paris>
+      a       <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/Place> , <http://www.opengis.net/gml/_Feature> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+      <http://www.w3.org/2000/01/rdf-schema#comment>
+              "Paris is the capital and largest city of France. It is situated on the river Seine, in northern France, at the heart of the Île-de-France region (or Paris Region, French: Région parisienne). As of January 2008 the city of Paris, within its administrative limits largely unchanged since 1860, has an estimated population of 2,211,297 and a metropolitan population of 12,089,098, and is one of the most populated metropolitan areas in Europe."@en ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Paris"@tr , "Paris"@pt , "Paris"@fr , "Paris"@en , "Paris"@de , "פריז"@he , "Parigi"@it , "Париж"@ru , "巴黎"@zh , "París"@es , "باريس"@ar ;
+      <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+              "48.8567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+              "2.3508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://xmlns.com/foaf/0.1/depiction>
+              <http://upload.wikimedia.org/wikipedia/commons/6/6e/Paris_-_Eiffelturm_und_Marsfeld2.jpg> , <http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_-_Eiffelturm_und_Marsfeld2.jpg/200px-Paris_-_Eiffelturm_und_Marsfeld2.jpg> .
+              
+<urn:enhancement-f5c29315-5102-c843-2921-a5d1f99f4b01>
+      a       <http://fise.iks-project.eu/ontology/TextAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T07:18:16.839Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engine.topic.TopicClassificationEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/type>
+              <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<urn:enhancement-5bb72e35-9d41-8a05-b7f2-66f73e501545>
+      a       <http://fise.iks-project.eu/ontology/TopicAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "0.4928706884384155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "Biology" ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Biology> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T07:18:16.839Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engine.topic.TopicClassificationEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-f5c29315-5102-c843-2921-a5d1f99f4b01> .
+
+<urn:enhancement-8cffeb37-5acd-44d9-34ef-1339e280d09e>
+      a       <http://fise.iks-project.eu/ontology/TopicAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "0.23250797390937805"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "Music" ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Music> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T07:18:16.839Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engine.topic.TopicClassificationEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-f5c29315-5102-c843-2921-a5d1f99f4b01> .
+
+<urn:enhancement-a55a39b3-3e52-8ddf-bd88-ce6242bd8f45>
+      a       <http://fise.iks-project.eu/ontology/TopicAnnotation> , <http://fise.iks-project.eu/ontology/Enhancement> ;
+      <http://fise.iks-project.eu/ontology/confidence>
+              "0.2746213376522064"^^<http://www.w3.org/2001/XMLSchema#double> ;
+      <http://fise.iks-project.eu/ontology/entity-label>
+              "Religion" ;
+      <http://fise.iks-project.eu/ontology/entity-reference>
+              <http://dbpedia.org/resource/Religion> ;
+      <http://fise.iks-project.eu/ontology/entity-type>
+              <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://fise.iks-project.eu/ontology/extracted-from>
+              <urn:content-item-sha1-37c8a8244041cf6113d4ee04b3a04d0a014f6e10> ;
+      <http://purl.org/dc/terms/created>
+              "2014-08-22T07:18:16.839Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+      <http://purl.org/dc/terms/creator>
+              "org.apache.stanbol.enhancer.engine.topic.TopicClassificationEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://purl.org/dc/terms/relation>
+              <urn:enhancement-f5c29315-5102-c843-2921-a5d1f99f4b01> .
