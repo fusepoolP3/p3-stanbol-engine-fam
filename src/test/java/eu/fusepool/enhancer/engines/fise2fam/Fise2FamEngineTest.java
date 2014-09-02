@@ -106,9 +106,7 @@ public class Fise2FamEngineTest {
         ciUri = (UriRef)id;
         //validate that the enhancements in the file are valid
         EnhancementStructureHelper.validateAllTextAnnotations(
-            origEnhancements, CONTENT, null,
-            false); //those do not yet contain fise:selection-prefix/suffix values
-        
+            origEnhancements, CONTENT, null);
         //create the engine we will use durign the tests
 	}
 	
