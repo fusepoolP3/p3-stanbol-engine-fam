@@ -40,7 +40,7 @@ public interface Constants {
 	
 	public static final String NS_NIF = "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#";
 	public static final UriRef NIF_STRING = new UriRef(NS_NIF + "String");
-	public static final UriRef NIF_RFC5147STRING = new UriRef(NS_NIF + "RDF5147String");
+	public static final UriRef NIF_RFC5147STRING = new UriRef(NS_NIF + "RFC5147String");
 	public static final UriRef NIF_CONTEXT = new UriRef(NS_NIF + "Context");
 	public static final UriRef NIF_SOURCE_URL = new UriRef(NS_NIF + "sourceURL");
 	public static final UriRef NIF_IS_STRING = new UriRef(NS_NIF + "isString");
