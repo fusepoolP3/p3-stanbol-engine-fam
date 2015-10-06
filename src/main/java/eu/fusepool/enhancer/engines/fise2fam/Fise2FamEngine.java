@@ -19,6 +19,7 @@ package eu.fusepool.enhancer.engines.fise2fam;
 import static eu.fusepool.enhancer.engines.fise2fam.Constants.*;
 import static org.apache.stanbol.enhancer.servicesapi.helper.EnhancementEngineHelper.get;
 import static org.apache.stanbol.enhancer.servicesapi.helper.EnhancementEngineHelper.getReference;
+import static org.apache.stanbol.enhancer.servicesapi.helper.EnhancementEngineHelper.getReferences;
 import static org.apache.stanbol.enhancer.servicesapi.rdf.OntologicalClasses.DC_LINGUISTIC_SYSTEM;
 import static org.apache.stanbol.enhancer.servicesapi.rdf.Properties.*;
 import static org.apache.stanbol.enhancer.servicesapi.rdf.TechnicalClasses.ENHANCER_ENHANCEMENT;
@@ -48,6 +49,7 @@ import org.apache.clerezza.rdf.core.TripleCollection;
 import org.apache.clerezza.rdf.core.UriRef;
 import org.apache.clerezza.rdf.core.impl.SimpleMGraph;
 import org.apache.clerezza.rdf.core.impl.TripleImpl;
+import org.apache.clerezza.rdf.ontologies.DCTERMS;
 import org.apache.felix.scr.annotations.Activate;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.ConfigurationPolicy;
@@ -263,6 +265,8 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
            		transformEntityAnnotation(anno);
             } else if(types.contains(ENHANCER_TOPICANNOTATION)){
             	transformTopicAnnotation(anno);
+            } else if(types.contains(FISE_KEYWORD_ANNOTATION)){
+                transformKeywordAnnotation(anno);
             } else {
             	log.warn("Unsupported fise:Enhancement type for enhancement {} (types: {})",
             			anno.enh,types);
@@ -270,8 +274,10 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
             }
 
             //(2) General purpose attributes mapped for all fise:Enhancements
-            //(2.a) confidence
-            copyValue(ctx, anno.enh, ENHANCER_CONFIDENCE, anno.enh, FAM.confidence);
+            //(2.a) confidence (if not yet written by the transform***Annotation(..) method)
+            if(!ctx.tar.filter(anno.enh, FAM.confidence, null).hasNext()) {
+                copyValue(ctx, anno.enh, ENHANCER_CONFIDENCE, anno.enh, FAM.confidence);
+            }
             //(2.b) the fise extracted-from
     		copyValue(ctx, anno.enh, ENHANCER_EXTRACTED_FROM, anno.enh, FAM.extracted_from);
 
@@ -399,12 +405,18 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
 	private void transformTextAnnotation(Annotation anno) {
         //we need to distinquish different types of fise:TextAnnotations
         //(1) Language Annotations
-        UriRef dcType = EnhancementEngineHelper.getReference(anno.ctx.src, anno.enh, DC_TYPE);
-        if (DC_LINGUISTIC_SYSTEM.equals(dcType)) { // this is a language annotation
+        Set<UriRef> dcTypes = asSet(getReferences(anno.ctx.src, anno.enh, DC_TYPE));
+        if (dcTypes.contains(DC_LINGUISTIC_SYSTEM)) { // this is a language annotation
             transformLanguageAnnotation(anno);
             return;
         }
-        //(2) Topic Annotations
+        //(2) Sentiment Annotation
+        //Sentiment Annotations do use ?enh dct:type fise:Sentiment
+        if(dcTypes.contains(FISE_SENTIMENT_TYPE)){
+            transformSentimentAnnotation(anno);
+            return;
+        }
+        //(3) Topic Annotations
         Iterator<Triple> relation = anno.ctx.src.filter(null, DC_RELATION, anno.enh);
         while (relation.hasNext()) {
             NonLiteral related = relation.next().getSubject();
@@ -413,9 +425,27 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
                 return;
             }
         }
-        //(3) Entity Mention Annotations (all remaining)
+        //(4) Entity Mention Annotations (all remaining)
         transformEntityMentionAnnotation(anno);
     }
+	
+	/**
+	 * Iterates over parsed values and adds them to a set
+	 * @param it the value iterator
+	 * @return the collected values as set. An empty set if <code>null</code> is
+	 * parsed. 
+	 */
+    static <T> Set<T> asSet(Iterator<? extends T> it) {
+        if(it == null || !it.hasNext()){
+            return Collections.emptySet();
+        }
+        Set<T> set = new HashSet<T>();
+        while(it.hasNext()){
+            set.add(it.next());
+        }
+        return set;
+    }
+
     /**
      * Implements mapping rules as defined by <a href="https://github.com/fusepoolP3/overall-architecture/blob/master/wp3/fp-anno-model/fp-anno-model.md#famlanguageannotation-transformation">
      * <code>fam:LanguageAnnotation</code> transformation</a>
@@ -428,6 +458,39 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
         anno.setBody(anno.enh); 
     }
 
+    /**
+     * Implements mapping riles as defined by <a href="https://github.com/fusepoolP3/overall-architecture/blob/master/wp3/fp-anno-model/fp-anno-model.md#famsentimenteannotation-transformation">
+     * <code>fam:SentimentAnnotation</code> transformation</a>
+     * @param anno the Annotation to transform
+     */
+    private void transformSentimentAnnotation(Annotation anno){
+        anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM_SENTIMENT_ANNOTATION));
+        copyValue(anno.ctx, anno.enh, FISE_SENTIMENT, anno.enh, FAM_SENTIMENT);
+        //Give the sentiment for the Document a special type to make retrieval easier 
+        if(anno.ctx.src.contains(new TripleImpl(anno.enh, DC_TYPE, FISE_DOCUMENT_SENTIMENT))){
+            anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM_DOCUMENT_SENTIMENT_ANNOTATION));
+        }
+        EnhancementEngineHelper.getReferences(anno.ctx.src, anno.enh, DC_TYPE);
+        //the annotation body uses the same resource as the enhancement
+        anno.setBody(anno.enh); 
+    }
+    
+    private void transformKeywordAnnotation(Annotation anno){
+        anno.ctx.tar.add(new TripleImpl(anno.enh, RDF_TYPE, FAM_KEYWORD_ANNOTATION));
+        copyValue(anno.ctx, anno.enh, FISE_KEYWORD, anno.enh, FAM_KEYWORD);
+        //the confidence of the enhancement is the metric for the keyword
+        //so (1) we copy over the confidence to fam:metic
+        copyValue(anno.ctx, anno.enh, ENHANCER_CONFIDENCE, anno.enh, FAM_METRIC);
+        //(2) we do sent the confidence for Keyword annotation to 1.0
+        EnhancementEngineHelper.set(anno.ctx.tar, anno.enh, FAM.confidence, lf.createTypedLiteral(1.0d));
+        //(3) copy fise:count to fam:count
+        copyValue(anno.ctx, anno.enh, FISE_COUNT, anno.enh, FAM_COUNT);
+        //(4) add a confidence to the FAM annotation to 1.0
+        anno.ctx.tar.add(new TripleImpl(anno.enh, FAM.confidence, lf.createTypedLiteral(1.0d)));
+        //the annotation body uses the same resource as the enhancement
+        anno.setBody(anno.enh); 
+    }
+    
     /**
      * Implements mapping rules as defined by <a href="https://github.com/fusepoolP3/overall-architecture/blob/master/wp3/fp-anno-model/fp-anno-model.md#famtopicclassification-transformation">
      * <code>fam:TopicClassification</code> transformation</a>
@@ -744,12 +807,7 @@ public class Fise2FamEngine extends AbstractEnhancementEngine<RuntimeException, 
      * @return the <code>rdf:type</code>s of the parsed resource 
      */
     private Set<UriRef> getRdfTypes(TripleCollection source, NonLiteral resoruce) {
-        if(resoruce == null){
-            return Collections.emptySet();
-        }
-        Set<UriRef> types = new HashSet<UriRef>();
-        for(Iterator<UriRef> it = EnhancementEngineHelper.getReferences(source, resoruce, RDF_TYPE);
-                it.hasNext(); types.add(it.next()));
-        return types;
+        return resoruce == null ? Collections.<UriRef>emptySet() : 
+            asSet(EnhancementEngineHelper.getReferences(source, resoruce, RDF_TYPE));
     }
 }

@@ -17,7 +17,7 @@ import org.apache.stanbol.enhancer.servicesapi.ContentItem;
 public class TransformationContext {
 
 	protected final ContentItem ci;
-	protected final TripleCollection src;
+	protected final MGraph src;
 	protected final MGraph tar;
 
 	private Map<NonLiteral, Annotation> annotations = new HashMap<NonLiteral, Annotation>();

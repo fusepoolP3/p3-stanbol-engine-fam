@@ -1,0 +1,810 @@
+<urn:enhancement-0516f543-39a5-9e61-ceac-f3d0e3dcee71>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "1738"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.4696381493543907"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "1641"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-0ef1e7c8-8f42-08a0-5fd8-1fb346a8652a>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "348"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.10228996540905833"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "200"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-0fa08bb7-d0a6-08ea-fd5e-1fe17944e01c>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2501"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.06759468618811387"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2301"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-118d9448-bf3b-10a8-c9c7-6d096f0bd102>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.0977487023947281"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2143"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-1b7520b4-b562-8ae2-fc51-a2682bf6c562>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "5390"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "0.04006385491259132"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "5345"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.743Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-2088f79b-77da-2c44-dc58-e8d72cf69f55>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2879"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.07454014943539669"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2810"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-26dd8023-4203-48df-1299-fe0dae22edd2>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.5240973380997587"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Polish victims"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-27324f41-d146-a439-4dba-f0a8008d6a0b>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2573"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.28269367426717823"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2502"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-29db007a-3401-9b72-adaf-5f6cddf3c776>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/negative-sentiment>
+                "-0.22905131154482672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/positive-sentiment>
+                "0.2557613067497632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.1635360928563686"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.743Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/DocumentSentiment> , <http://fise.iks-project.eu/ontology/Sentiment> .
+
+<urn:enhancement-2ac4babb-68e8-6ab2-2ab9-01b3e816710d>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "1640"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.32330812035247614"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "1450"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-2e587cac-0855-511e-a077-9147fb21f506>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.6582523630117942"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Polish President Lech Kaczynski"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-377c35bf-ce21-5977-b16e-a02c73b1dd62>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2142"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.053589965202035725"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "1895"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-3b676701-ef67-ea87-b3bf-1fb1eae83c85>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.5025785696169378"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2203"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-3be301c8-1cbd-670c-7a13-5e7d88a71636>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4070"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.46209912236828105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4001"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-3d08a82d-1c36-5b3f-aaec-a5b66be27c9c>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2809"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.3853033773466874"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2574"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-3fce68a9-6326-1450-0d69-c1de0691541d>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "5344"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.15338011562116344"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "5216"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.743Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-4dfa13a3-86fb-3f48-f2ef-1e966779ad94>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.5915328837123599"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Russian President Dmitry Medvedev"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-503c90a5-d5ed-9b1c-48aa-76b5eabbad56>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.5955977481316037"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "air crash victims"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-56315422-47ba-545f-8fa3-b693c395495e>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4453"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "0.24293873249112208"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4386"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-5b3cb9b5-b3f0-3b34-b94d-175eb3890a3a>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "1449"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.0924814470218059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "1137"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-6cd3d05e-8c78-e9b3-d006-792a1b7fb5fd>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "199"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.2432485558191523"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-7f7acce9-8451-460a-fbd7-8adf41173b57>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4385"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.12052237730103664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4245"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-814ad2d3-b73d-5d3a-0e89-1793fb42389d>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "1136"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.020357371352167267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "910"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-84636313-4c24-e433-0184-6d46f4d7088f>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "521"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.23700605539140826"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "462"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-87f522bc-e831-b0c3-b21b-5276e15c9051>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "3861"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.21218181474243142"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "3681"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-8970992a-5886-57f3-9c63-b6190c47b175>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "909"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.19463901006026324"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "702"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-8aab5e7c-fe49-04b3-3d96-f69939a14dc6>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "3470"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.45152505012449035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "3256"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-8b34030f-ba0d-b6da-6c11-62cfd45887c4>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.6021871420764462"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Russian Prime Minister Vladimir Putin"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-8d281839-f9ec-bbe7-781c-71edd49ae3da>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4726"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.2605648062562447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4454"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-97ab9c42-3f6c-75ef-c92b-cfae400ca143>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.9999970859044884"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:38.101Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "org.apache.stanbol.enhancer.engines.langdetect.LanguageDetectionEnhancementEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/language>
+                "en" ;
+        <http://purl.org/dc/terms/type>
+                <http://purl.org/dc/terms/LinguisticSystem> .
+
+<urn:enhancement-9b6a1bd6-c989-9c57-feb4-c33cbc9beef9>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "3610"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.25220283465587967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "3471"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-a2e50a32-2f53-126f-1529-0dd0932bd835>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "3680"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.1355473312284257"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "3611"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-a531a48d-73f6-49f7-7b24-220c6e65a37a>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "3167"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.0880057997762282"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2994"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-a69c4907-19fd-d415-0938-a0c0029fd48f>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "5110"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.22412421922746228"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4932"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.743Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-aa6cae5e-163c-e7e0-76ae-20150c3025c4>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "461"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.25105671338290525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "349"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-b960469f-30a9-cf6f-b7b6-eb055f0e6915>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.8582483347386307"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "President Lech Kaczynski The body"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-ba8f1159-fb8f-9633-8162-788f790101fc>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.12380912694742426"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "3862"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-c7a1ce0d-fd4d-6e50-361f-39a422db11f8>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.5599313772095207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "World War II massacre"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-cb8cc80e-f947-08be-cd28-9ba148d015e2>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4812"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "0.5150355092220508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4727"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-d301d36e-dfcf-8096-e6f2-36348dbd4dd8>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "5215"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.49554884656981535"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "5111"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.743Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-dade88c9-738f-c3c4-3664-7f818ba6366f>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "3255"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.28046349761638517"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "3168"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-e2d55872-6298-34a5-60e7-3940c43a57d6>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4931"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.3130415799492717"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4813"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-edc54447-33cf-ff19-4da7-03b672fd40d4>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "1894"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "0.012701515432689922"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "1739"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-f31bd362-e0bc-0d4f-7d90-842be9121967>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "701"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.31405291265632657"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "522"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-f3c99b03-6c65-2e9d-bf85-ddb018060201>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "4244"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "-0.04449802179888207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "4071"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.742Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-f5497467-2e9a-6b5a-349e-53c17a2c8f6c>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/TextAnnotation> ;
+        <http://fise.iks-project.eu/ontology/end>
+                "2993"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/sentiment>
+                "0.4680669216903619"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/start>
+                "2880"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.741Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.platform.stanbol.enhancer.engines.sentimentwriter.SentimentWriterEngine"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/terms/type>
+                <http://fise.iks-project.eu/ontology/Sentiment> , <http://nlp2rdf.lod2.eu/schema/sso/Sentence> .
+
+<urn:enhancement-f6e3a4ff-6e5c-0545-b6a7-a2952f4231da>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.5771834138319586"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Poland"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-f86fd007-6b87-e878-653a-592bf0c8ab9b>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.494774191434519"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Russia"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<urn:enhancement-ff7d046d-2dae-b30d-25cb-c20547007c6c>
+        a       <http://fise.iks-project.eu/ontology/Enhancement> , <http://fise.iks-project.eu/ontology/KeywordAnnotation> ;
+        <http://fise.iks-project.eu/ontology/confidence>
+                "0.5448710646347187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://fise.iks-project.eu/ontology/count>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://fise.iks-project.eu/ontology/extracted-from>
+                <urn:content-item-sha1-834b436cf2fd98d953e871107fe8817a9e110632> ;
+        <http://fise.iks-project.eu/ontology/keyword>
+                "Difficult identification Relatives"@en ;
+        <http://purl.org/dc/terms/created>
+                "2015-09-22T06:20:39.739Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/creator>
+                "at.redlink.plattform.stanbol.enhancer.engine.keyword.KeywordExtractionEngine"^^<http://www.w3.org/2001/XMLSchema#string> .
